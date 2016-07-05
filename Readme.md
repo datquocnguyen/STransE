@@ -58,11 +58,11 @@ where hyper-parameters in [ ] are optional!
 
 `-evalStep`: Specify a step to save and evaluate the model, e.g., evaluating the model after each step of 500 training epochs. The default value is 2000.
 
-`-nthreads`: Specify the number of CPU cores used for evaluation. The default value is 1. Note that the evaluation process (i.e. evaluating link/entity prediction in knowledge bases) is slow. If you can afford to run the program with many CPU cores, the evaluation process will be much faster, so you can even evaluate the model after each training epoch. 
+`-nthreads`: Specify the number of multiple threads used for evaluation. The default value is 1. Note that evaluating link/entity prediction in knowledge bases is slow. If you can afford to run the program with many threads, the evaluation process will be much faster, thus you can even evaluate the model after each training epoch. 
 
-### Evaluation scores
+### Evaluation metrics
 
-For evaluating link/entity prediction, the program provides ranking-based metrics as evaluation scores, including the mean rank, the mean reciprocal rank, Hits@1, Hits@5 and Hits@10 in two setting protocols "Raw" and "Filtered". 
+For evaluating link/entity prediction, the program provides ranking-based scores as evaluation metrics, including the mean rank, the mean reciprocal rank, Hits@1, Hits@5 and Hits@10 in two setting protocols "Raw" and "Filtered". 
 
 ### Reproduce the STransE results 
 
