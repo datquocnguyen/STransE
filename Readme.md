@@ -10,9 +10,9 @@ Please cite my NAACL-HLT 2016 paper whenever STransE is used to produce publishe
 
 I would highly appreciate to have your bug reports, comments and suggestions about STransE. As a free open-source implementation, STransE is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 
-##Usage
+## Usage
 
-###Compile the program
+### Compile the program
 
 
 Suppose that `g++` is already set to run in command line or terminal. After you clone or download (and then unzip) the program, you have to compile the program by executing:
@@ -25,7 +25,7 @@ Note that the actual command starts from `g++`. Here `SOURCE_DIR` is simply used
 
 	STransE-master$ g++ -I ../STransE-master/ STransE.cpp -o STransE -O2 -fopenmp -lpthread
 
-###Run the program
+### Run the program
 
 To run the program, we perform:
 
