@@ -4,9 +4,9 @@ This STransE program provides the implementation of the embedding model STransE 
 
  Dat Quoc Nguyen, Kairit Sirts, Lizhen Qu and Mark Johnson. 2016. [STransE: a novel embedding model of entities and relationships in knowledge bases](http://www.aclweb.org/anthology/N16-1054). In *Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*, NAACL-HLT 2016, pp. 460-466. [[.bib]](http://www.aclweb.org/anthology/N16-1054.bib)
 
-The program also provides the implementation of the embedding model [TransE](https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data).
-
 Please cite my NAACL-HLT 2016 paper whenever STransE is used to produce published results or incorporated into other software.
+
+The program also provides the implementation of the embedding model [TransE](https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data). See an overview of embedding models of entities and relationships for knowledge base completion at [HERE](https://arxiv.org/pdf/1703.08098.pdf).
 
 I would highly appreciate to have your bug reports, comments and suggestions about STransE. As a free open-source implementation, STransE is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 
